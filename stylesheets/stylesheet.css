@@ -3,40 +3,34 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {  display: block;}
 table {  border-collapse: collapse;  border-spacing: 0;}
-a:focus {  outline: none;}
- @font-face {
-    font-family: 'Open Sans';
-    src: url('OpenSans600.woff') format('woff');
+
+@font-face {
+	font-family: 'Open Sans';
+  src: url('OpenSans600.woff') format('woff');
 	src: url('OpenSans600.eot?#iefix') format('embedded-opentype');
-    font-style: normal;
-    font-weight: bold;
+  font-style: normal;
+  font-weight: bold;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: url('OpenSans.woff') format('woff');
+  font-family: 'Open Sans';
+  src: url('OpenSans.woff') format('woff');
 	src: url('OpenSans.eot?#iefix') format('embedded-opentype');
-    font-style: normal;
-    font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
 }
 /* Theme Styles */
 body {
   box-sizing: border-box;
   background-image:url(../images/bg.png); 
-  font-weight: normal;
-  font-size:16px;
   color:#444;
-  font-family: 'Open Sans', sans-serif;
-  font-style:normal; 
-  font-weight: normal; 
-  line-height:1.4em;
+  font: normal 16px/1.4 'Open Sans', sans-serif;  
   letter-spacing:normal;
 }
 h1 {  font-size: 1.6em;  font-weight: normal;  margin-top:.2 em;}
 h2 {  font-size: 1.2em;  font-weight: normal;  margin-bottom:.5em;  margin-top:1em; letter-spacing:.1em;}
 h3 {  font-size: 1em;  font-weight: bold;   margin-bottom:.5em;  margin-top:1em; letter-spacing:0;}
-
 p {  margin: 0 0 .8em 0;  font-size: 1em ;}
-footer p {  color: #aaa;  font-size:.8em;  margin:0;}
+footer p {  color: #aaa;  font-size:.8em;  margin:0; text-align:center}
 a {  text-decoration: none;  color: #bababa;  text-shadow: none;}
 a:hover {  color: #43adff;  text-shadow: #0090ff 0px 0px 2px; }
 em {  font-style: italic; }
@@ -50,7 +44,6 @@ img {
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
 }
-
 blockquote {
   color: #666;
   margin-bottom: 20px;
@@ -86,21 +79,21 @@ Full-Width Styles
 #header_wrap { background: #212121; }
 #header_wrap .inner { padding:.5em; }
 #title {  color: #bababa;  }
-#sub-title {  color: #bababa;  font-size: 1em;  background: none;  margin: .4em 0 .2em 0;}
+#sub-title {  color: #bababa;  font-size: .9em;  background: none;  margin: .2em 0 .2em 0;}
 #main_content_wrap {   }
 #main_content {}
 #footer_wrap {  background: #212121; }
 
-@media  (min-width: 1em) and  (max-width: 35em) {
+@media  (min-width: 1em) and  (max-width: 40em) {
   body { }
   .inner{ max-width: 95%;}
    li ul {	 margin-left:0;      }
 }
-@media (min-width: 35.1em) and (max-width: 48em) {
-	body {font-size: 17px}
-    .inner {  max-width: 70%;    }
+@media (min-width: 40.01em) and (max-width: 70em) {
+	body {font-size: 16.6px}
+    .inner {  max-width: 75%;    }
 }
-@media (min-width: 48.1em) and  (max-width: 248.1em)  {
-	body {font-size: 17px}
+@media (min-width: 70.01em) and  (max-width: 248.1em)  {
+	body {font-size: 16.9px}
    .inner{ max-width: 50%;  }
 }
