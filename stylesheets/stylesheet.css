@@ -97,3 +97,13 @@ Full-Width Styles
 	body {font-size: 16.9px}
    .inner{ max-width: 50%;  }
 }
+
+@media print {
+	body {font-size: 14px; color:black;}
+   .inner{ width: 90%;  }
+   #header_wrap, #footer_wrap , body { background-image:none; background-color:white;}
+   #title, #sub-title {  color: black }
+   footer p {text-align:left}
+   #sub-title:after {content: " (Printed from bjose.github.io)"; color: #bababa}
+   footer p:after {content: " | Thanks for looking!"; color: #bababa}
+	}
