@@ -1,24 +1,22 @@
-/**  Reset **/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {  margin: 0;  padding: 0;  border: 0;  font: inherit;  vertical-align: baseline;}
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {  display: block;}
 table {  border-collapse: collapse;  border-spacing: 0;}
 
 @font-face {
-	font-family: 'Open Sans';
+  font-family: 'Open Sans';
   src: url('OpenSans600.woff') format('woff');
-	src: url('OpenSans600.eot?#iefix') format('embedded-opentype');
+  src: url('OpenSans600.eot?#iefix') format('embedded-opentype');
   font-style: normal;
   font-weight: bold;
 }
 @font-face {
   font-family: 'Open Sans';
   src: url('OpenSans.woff') format('woff');
-	src: url('OpenSans.eot?#iefix') format('embedded-opentype');
+  src: url('OpenSans.eot?#iefix') format('embedded-opentype');
   font-style: normal;
   font-weight: 400;
 }
-/* Theme Styles */
+/* Theme */
 body {
   box-sizing: border-box;
   background-image:url(../images/bg.png); 
@@ -29,7 +27,7 @@ body {
 h1 {  font-size: 1.6em;  font-weight: normal;  margin-top:.2 em;}
 h2 {  font-size: 1.2em;  font-weight: normal;  margin-bottom:.5em;  margin-top:1em; letter-spacing:.1em;}
 h3 {  font-size: 1em;  font-weight: bold;   margin-bottom:.5em;  margin-top:1em; letter-spacing:0;}
-p {  margin: 0 0 .8em 0;  font-size: 1em ;}
+p  {  margin: 0 0 .8em 0;  font-size: 1em ;}
 footer p {  color: #aaa;  font-size:.8em;  margin:0; text-align:center}
 a {  text-decoration: none;  color: #bababa;  text-shadow: none;}
 a:hover {  color: #43adff;  text-shadow: #0090ff 0px 0px 2px; }
@@ -69,10 +67,7 @@ td {  padding: 10px;  border: 1px solid #373737; }
 form {  background: #f2f2f2;  padding: 20px;}
 img {  width: 100%;  max-width: 100%;}
 
-/*******************************************************************************
-Full-Width Styles
-*******************************************************************************/
-
+/* Full width */
 .outer {  width: 100%; }
 .inner {  position: relative;  max-width: 80%;  padding: .3em;  margin: 0 auto;}
 
@@ -84,6 +79,7 @@ Full-Width Styles
 #main_content {}
 #footer_wrap {  background: #212121; }
 
+/* RWD  */
 @media  (min-width: 1em) and  (max-width: 40em) {
   body { }
   .inner{ max-width: 95%;}
@@ -97,7 +93,7 @@ Full-Width Styles
 	body {font-size: 16.9px}
    .inner{ max-width: 50%;  }
 }
-
+/* print */
 @media print {
 	body {font-size: 14px; color:black;}
    .inner{ width: 90%;  }
