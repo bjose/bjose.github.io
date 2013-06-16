@@ -101,5 +101,4 @@ img {  width: 100%;  max-width: 100%;}
    #title, #sub-title {  color: black }
    footer p {text-align:left}
    #sub-title:after {content: " (Printed from bjose.github.io)"; color: #bababa}
-   footer p:after {content: " | Thanks for looking!"; color: #bababa}
 	}
