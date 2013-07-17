@@ -69,15 +69,16 @@ img {  width: 100%;  max-width: 100%;}
 
 /* Full width */
 .outer {  width: 100%; }
-.inner {  position: relative;  max-width: 80%;  padding: .3em;  margin: 0 auto;}
+.inner {  position: relative;    padding: .3em;  margin: 0 auto; width:100%; }
 
 #header_wrap { background: #212121; }
 #header_wrap .inner { padding:.5em; }
 #title {  color: #bababa;  }
-#sub-title {  color: #bababa;  font-size: .9em;  background: none;  margin: .2em 0 .2em 0;}
-#main_content_wrap {   }
-#main_content {}
+#sub-title {  color: #bababa;  font-size: .9em;  background: none;  margin: .2em 0 .2em 0; display:none;}
+#main_content_wrap { wdith:100%  }
+
 #footer_wrap {  background: #212121; }
+footer p {display:none;}
 
 /* RWD  */
 @media  (min-width: 1em) and  (max-width: 40em) {
@@ -98,7 +99,7 @@ img {  width: 100%;  max-width: 100%;}
 	body {font-size: 14px; color:black;}
    .inner{ width: 90%;  }
    #header_wrap, #footer_wrap , body { background-image:none; background-color:white;}
-   #title, #sub-title {  color: black }
-   footer p {text-align:left}
+   #title, #sub-title {  color: black ; display:block}
+   footer p {text-align:left; display:block}
    #sub-title:after {content: " (Printed from bjose.github.io)"; color: #bababa}
 	}
