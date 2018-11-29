@@ -21,12 +21,12 @@ body {
   box-sizing: border-box;
   background-image:url(../images/bg.png); 
   color:#444;
-  font: normal 16px/1.4 'Open Sans', sans-serif;  
+  font: normal 18px/1.5 'Open Sans', sans-serif;  
   letter-spacing:normal;
 }
 h1 {  font-size: 1.6em;  font-weight: normal;  margin-top:.2 em;}
-h2 {  font-size: 1.2em;  font-weight: normal;  margin-bottom:.5em;  margin-top:1em; letter-spacing:.1em;}
-h3 {  font-size: 1em;  font-weight: bold;   margin-bottom:.5em;  margin-top:1em; letter-spacing:0;}
+h2 {  font-size: 1.6em;  font-weight: normal;  margin-bottom:.5em;  margin-top:1em; letter-spacing:.1em;}
+h3 {  font-size: 1.2em;  font-weight: normal;   margin-bottom:.5em;  margin-top:1em; letter-spacing:0;}
 p  {  margin: 0 0 .8em 0;  font-size: 1em ;}
 footer p {  color: #aaa;  font-size:.8em;  margin:0; text-align:center}
 a {  text-decoration: none;  color: #bababa;  text-shadow: none;}
@@ -79,7 +79,7 @@ img {  width: 100%;  max-width: 100%;}
 
 #footer_wrap {  background: #212121; }
 footer p {display:none;}
-.printbtn {background-color:#777; color:white; padding:.1em .3em; margin:.3em; float:right; font-size:.6em ;cursor:pointer;}
+.printbtn {background-color:#777; color:white; padding:.1em .3em; margin:.3em; float:right; font-size:1em ;cursor:pointer;}
 /* RWD  */
 @media  (min-width: 1em) and  (max-width: 40em) {
   body { }
